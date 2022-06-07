@@ -6,9 +6,10 @@
 //Stampare in console.
 
 let fizzBuzzNumber;
-const numbersContainer
+const numbersContainer = document.querySelector('.number-list');
 
 for(let i = 0; i <= 100; i++){
+
 
     if( i % 3 === 0 && i % 5 === 0) {
         fizzBuzzNumber = 'FizzBuzz';
@@ -22,6 +23,9 @@ for(let i = 0; i <= 100; i++){
     }else {
         fizzBuzzNumber = i;
     }
-    console.log(fizzBuzzNumber);
+
+    const newList = `<li class="list">${fizzBuzzNumber}</li>`;
+    numbersContainer.innerHTML += newList;
+
 }
 
