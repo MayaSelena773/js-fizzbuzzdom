@@ -1,0 +1,56 @@
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*COMMON*/
+body {
+    background-color: rgb(0, 59, 78);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 50px;
+}
+
+/*Number container*/
+.numbers-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(0, 130, 179);
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*classi per il colore*/
+
+.box.green {
+
+    background-color: rgb(0, 231, 163);
+}
+
+.box.yellow {
+    
+    background-color: rgb(255, 220, 92);
+}
+
+.box.pink {
+    
+    background-color: rgb(255, 0, 101);
+}
+
