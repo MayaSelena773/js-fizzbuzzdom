@@ -8,9 +8,9 @@ let fizzBuzzClassName;
 //Stampare i numeri da 1 a 100
 for(let i = 1; i <= 100; i++) {
 
+    //Per i numeri che sono sia multipli di 3 che di 5 stampare FizzBuzz.
     //Per i numeri multipli di 3 stampare Fizz
     //Per i numeri multipli di 5 stampare Buzz
-    //Per i numeri che sono sia multipli di 3 che di 5 stampare FizzBuzz.
     //assegnamo un colore diverso a seconda della classe : Fizz .green, Buzz .yellow e FizzBuzz .pink
     
     if( i % 3 === 0 && i % 5 === 0) {
@@ -27,7 +27,7 @@ for(let i = 1; i <= 100; i++) {
 
     }else {
         fizzBuzzNumber = i;
-        fizzBuzzClassName = 0 ;
+        fizzBuzzClassName = '' ;
     }
 
     //aggiungere un elemento html con il numero o la stringa corretta 
